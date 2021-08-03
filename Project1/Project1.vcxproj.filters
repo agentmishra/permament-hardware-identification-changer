@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="clean.c" />
+    <ClCompile Include="util.c" />
+    <ClCompile Include="btfile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clean.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="bytes.h" />
+    <ClInclude Include="xor.h" />
+    <ClInclude Include="btfile.h" />
+  </ItemGroup>
+</Project>
